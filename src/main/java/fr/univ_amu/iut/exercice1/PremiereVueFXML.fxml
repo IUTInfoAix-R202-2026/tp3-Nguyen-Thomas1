@@ -25,6 +25,26 @@
 -->
 
 <BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
-            prefWidth="420.0" prefHeight="240.0">
+  prefWidth="420.0" prefHeight="240.0">
+
+  <padding>
+    <Insets top="20" bottom="20" right="20" left="20" />
+  </padding>
+
+  <top>
+    <Label BorderPane.alignment="CENTER" text="Bienvenue dans le monde FXML !"></Label>
+    <!-- <font>
+      <Font name="System Bold" size="20" />
+    </font> -->
+  </top>
+
+  <center>
+    <Label wrapText="true" BorderPane.alignment="CENTER">text</Label>
+  </center>
+
+
+  <bottom>
+    <Button BorderPane.alignment="CENTER">D'accord, c'est magique </Button>
+  </bottom>
 
 </BorderPane>
